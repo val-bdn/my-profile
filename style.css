@@ -1,0 +1,96 @@
+/* Color and fonts */
+
+body {
+  background-color: #F5F6F7;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  color: #8B8A8C;
+}
+h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-weight: 700;
+  color: #21314C;
+  font-size: 32px;
+}
+h2 {
+  font-weight: 400;
+  color:#01C3A7;
+}
+a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #21314C;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #01C3A7;
+  text-decoration: none;
+}
+
+/* Custom design with class */
+.container {
+  width: 750px;
+  margin: 40px auto;
+}
+@media (max-width: 800px){
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 650px){
+  .container {
+    width: 450px;
+  }
+}
+.card-white {
+  background-color: white;
+  margin: 20px 0px;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #21314C;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.btn-blue:hover {
+  background-color: #01C3A7;
+  color: white;
+}
+.list-nobullet {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-nobullet li {
+  line-height: 30px;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(210, 210, 210);
+}
+.list-inline i:hover {
+  color: #01C3A7;
+}
+#introduction p {
+  margin-bottom: 40px;
+}
+#footer p {
+  margin-bottom: 40px;
+}
+
