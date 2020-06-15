@@ -30,6 +30,19 @@ a:hover {
 }
 
 /* Custom design with class */
+.sidebar {
+  width: 750px;
+  margin: 40px auto;
+  text-align: center;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.sidebar li {
+  display: inline;
+  padding: 10px;
+}
 .container {
   width: 750px;
   margin: 40px auto;
